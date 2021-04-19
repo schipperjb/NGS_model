@@ -1,5 +1,7 @@
 # NGS_model
 Modeling next generation sequencing output. This model was built for testing alignment algorithms. In this case the de Bruijn algorithm was used to align the 'genome' produced by the NGS_model. 
+
+
 Background: 
 Biology
 DNA sequencing has been a paramount tool for understanding genomics. To find the DNA sequence of the genome (Fig.1A) in its entirety the first is to amplify the genome. This process is called whole genome amplification or WGA. WGA creates hundreds of identical copies of the given genome (Fig1.B). These genome copies can be ligated or cut randomly creating various length subsequences. The pool of subsequences from the cut genome copies is called a library (Fig. 1C). This library tagged using Sanger sequencing methods. A fluorescently tagged, dideoxynucleoside triphosphate for A, G, C, and T are introduced to DNA fragments mixture. The tagged nucleotides prevent DNA polymerase from adding another base pair to the stand thus quenching the experiment. The experiment labels all nucleotides in short DNA fragments by length. With known DNA sequence for the short subsequences, assembly of the DNA is possible by overlapping subsequences and slowly piecing together the sequence of the original genome (Fig.2). 
